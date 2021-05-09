@@ -1,0 +1,15 @@
+<fa-icon *ngIf="!show" (click)="expand()" [icon]="faArrowRight"></fa-icon>
+
+<nav *ngIf="show">
+  <fa-icon (click)="collapse()" [icon]="faArrowLeft"></fa-icon>
+
+  <div class="basic-info">
+    <img src="https://picsum.photos/250/250" alt="Profile picture" />
+    <h2>Sébastien Lastré</h2>
+    <h4>21 years old</h4>
+  </div>
+  <app-button text="Home" routerLink="/"></app-button>
+  <app-button text="Studies" routerLink="/studies"></app-button>
+  <app-button text="Work Experience" routerLink="/work"></app-button>
+  <app-button text="Contact" routerLink="/contact"></app-button>
+</nav>

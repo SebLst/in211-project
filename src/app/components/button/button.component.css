@@ -1,0 +1,15 @@
+button {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  border: 0;
+  padding: 5px 0px 5px;
+  width: 250px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+}

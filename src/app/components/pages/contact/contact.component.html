@@ -1,0 +1,42 @@
+<div class="page">
+  <h1>Contact</h1>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-control">
+      <label for="name">Name:</label
+      ><input
+        type="text"
+        name="name"
+        id="name"
+        [(ngModel)]="name"
+        placeholder="Your name"
+      />
+    </div>
+
+    <div class="form-control">
+      <label for="subject">Subject:</label
+      ><input
+        type="text"
+        name="subject"
+        id="subject"
+        [(ngModel)]="subject"
+        placeholder="Subject of your message"
+      />
+    </div>
+
+    <div class="form-control">
+      <label for="message">Message:</label
+      ><textarea
+        name="message"
+        id="message"
+        [(ngModel)]="message"
+        cols="40"
+        rows="10"
+        placeholder="Your message"
+        spellcheck="true"
+      ></textarea>
+    </div>
+
+    <input type="submit" value="Send" class="send-btn" />
+  </form>
+</div>
