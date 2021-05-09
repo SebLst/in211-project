@@ -2,6 +2,10 @@
 
 Made by Sébastien Lastré.
 
+## Install
+
+A `npm i` should be enough after cloning the repo.
+
 ## How to use it
 
 You must use `json-server --watch db.json` in the root folder if you want the form to work.
